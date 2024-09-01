@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exploring Opacity in Web Design</title>
+    <link href="style.css" rel="stylesheet" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #4a4a4a;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      div {
+        background-color: #ff5733;
+        padding: 20px;
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      .first {
+        opacity: 0.1;
+      }
+
+      .second {
+        opacity: 0.3;
+      }
+
+      .third {
+        opacity: 0.6;
+      }
+
+      .default {
+        opacity: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Exploring Opacity in Web Design</h1>
+
+    <p>
+      Opacity is a powerful CSS property that allows web designers to control
+      the transparency of elements, creating visually interesting and layered
+      effects. Below are some examples of how different opacity values can be
+      applied to content blocks:
+    </p>
+
+    <div class="first">
+      <p>Opacity [0.1]</p>
+      <p>
+        This block is very transparent, almost invisible, giving a subtle hint
+        of the background color.
+      </p>
+    </div>
+
+    <div class="second">
+      <p>Opacity [0.3]</p>
+      <p>
+        This block is less transparent than the first one, allowing more of the
+        background color to show through while still being quite light.
+      </p>
+    </div>
+
+    <div class="third">
+      <p>Opacity [0.6]</p>
+      <p>
+        At this level, the content becomes much more visible, balancing
+        transparency and readability effectively.
+      </p>
+    </div>
+
+    <div class="default">
+      <p>Opacity [1.0] - Default</p>
+      <p>
+        This block is fully opaque, with no transparency. This is the default
+        state for most elements.
+      </p>
+    </div>
+  </body>
+</html>
